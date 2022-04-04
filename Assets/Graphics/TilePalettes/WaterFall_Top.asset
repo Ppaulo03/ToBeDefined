@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WaterFall_Top
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -7999127533134495899, guid: 56bc1f866ca6bae469779429092ca143, type: 3}
+  - {fileID: 4862631661726535384, guid: 56bc1f866ca6bae469779429092ca143, type: 3}
+  - {fileID: 4261502502061543882, guid: 56bc1f866ca6bae469779429092ca143, type: 3}
+  - {fileID: 3510224084178450134, guid: 56bc1f866ca6bae469779429092ca143, type: 3}
+  m_MinSpeed: 12
+  m_MaxSpeed: 12
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

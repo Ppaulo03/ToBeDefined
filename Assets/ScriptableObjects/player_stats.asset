@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6b092aaeaced63428b9487c484f3d5b, type: 3}
+  m_Name: player_stats
+  m_EditorClassIdentifier: 
+  dash:
+    time: 0.1
+    cost: 20
+    speed: 15
+    effect: {fileID: 9102858299047576246, guid: d80f5f51f0ba97e41855b5ac6a79629e, type: 3}
+  health:
+    max: 100
+    recovery: 0
+  stamina:
+    max: 50
+    recovery: 5
+  energy:
+    max: 50
+    recovery: 10
+  strength: 5
+  magic: 5
+  resistence: 20
+  speed: 5

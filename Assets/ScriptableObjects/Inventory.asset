@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4991806c3d4718145a2dc980914760c7, type: 3}
+  m_Name: Inventory
+  m_EditorClassIdentifier: 
+  items:
+  - stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+    name: Mana Potion
+    description: Recuperes mana
+    qtd: 4
+    price: 25
+    max_qtd: 24
+    value: 25
+    image: {fileID: 21300000, guid: 387ae47dc58e54c4a85d70b0cb9916ca, type: 3}
+    drop_obj: {fileID: 8600585002951700963, guid: b97d5f3b87eaa454eb3260228f5c1c2a, type: 3}
+    type: 2
+  - stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+    name: Health Potion
+    description: Cures
+    qtd: 3
+    price: 50
+    max_qtd: 24
+    value: 50
+    image: {fileID: 21300000, guid: 0f658c2d3c6f25b43b46e8a903ee534a, type: 3}
+    drop_obj: {fileID: 1175338459441168737, guid: db78fe2b1ee09e74ab633e49851ed338, type: 3}
+    type: 1
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  - stats: {fileID: 0}
+    name: 
+    description: 
+    qtd: 0
+    price: 0
+    max_qtd: 24
+    value: 0
+    image: {fileID: 0}
+    drop_obj: {fileID: 0}
+    type: 0
+  weapons:
+  - name: Axe
+    info: {fileID: 8236608127656211364, guid: 04b17dad52c51674eb3ae23c05ae342c, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: 9fb9eb4dccc9b534ea3afc935db42a1f, type: 3}
+    obj: {fileID: 8236608127656211365, guid: 04b17dad52c51674eb3ae23c05ae342c, type: 3}
+    drop_obj: {fileID: 4156779223403043664, guid: 19d80dd854ce7be4a8cb5c82b27813b2, type: 3}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 48b56939222a80f4c882b4aa11ebecfb, type: 3}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 0cb1cbfe44caba54180ead83de78cdc1, type: 3}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 48b56939222a80f4c882b4aa11ebecfb, type: 3}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 48b56939222a80f4c882b4aa11ebecfb, type: 3}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 0cb1cbfe44caba54180ead83de78cdc1, type: 3}
+  - name: BigSword
+    info: {fileID: 5314838575403316302, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    price: 100
+    max_durability: 10
+    durability: 10
+    image: {fileID: 21300000, guid: d7c0c16bd69d5f348aa952310524fdce, type: 3}
+    obj: {fileID: 5314838575403316303, guid: 74c71dfe1f98580418ee11979aef5835, type: 3}
+    drop_obj: {fileID: 4545155382671353866, guid: 0cb1cbfe44caba54180ead83de78cdc1, type: 3}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  - name: 
+    info: {fileID: 0}
+    price: 0
+    max_durability: 0
+    durability: 0
+    image: {fileID: 0}
+    obj: {fileID: 0}
+    drop_obj: {fileID: 0}
+  magics: []
+  stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+  item_index: 00000000ffffffffffffffff
+  weapon_index: 010000000000000002000000
+  magic_index: 0
+  weapon_chosen: 0
+  item_chosen: 1
+  max_capacity: 16
+  _money: 9700

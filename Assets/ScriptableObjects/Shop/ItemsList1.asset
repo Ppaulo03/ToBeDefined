@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e6434ebf0dd3e840a41652e1e3446ea, type: 3}
+  m_Name: ItemsList1
+  m_EditorClassIdentifier: 
+  items:
+  - stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+    name: Health Potion
+    description: Cures
+    qtd: 1
+    price: 50
+    max_qtd: 24
+    value: 50
+    image: {fileID: 21300000, guid: 0f658c2d3c6f25b43b46e8a903ee534a, type: 3}
+    drop_obj: {fileID: 1175338459441168737, guid: db78fe2b1ee09e74ab633e49851ed338, type: 3}
+    type: 1
+  - stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+    name: Mana Potion
+    description: Recuperes mana
+    qtd: 1
+    price: 25
+    max_qtd: 24
+    value: 25
+    image: {fileID: 21300000, guid: 387ae47dc58e54c4a85d70b0cb9916ca, type: 3}
+    drop_obj: {fileID: 8600585002951700963, guid: b97d5f3b87eaa454eb3260228f5c1c2a, type: 3}
+    type: 2

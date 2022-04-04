@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 67076358674665b4db1d3dee6ffc76c4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fade_in_panel: {instanceID: 0}
+  - fade_out_panel: {instanceID: 0}
+  - stats: {fileID: 11400000, guid: 761018560ce440649bf09fbd545b5d7f, type: 2}
+  - inventory: {fileID: 11400000, guid: 62cb50a8fc5a98f41b5f9200dcc8d2d9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
